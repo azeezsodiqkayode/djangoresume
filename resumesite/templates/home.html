@@ -33,6 +33,27 @@
 	height: 40px;
 
 	}
+
+	.images{
+	postion: relative;
+	left:20px;
+	right:10px;
+	top: 20px;
+	width: 50px;
+	height:50px;
+	background: white;
+	margin-right: 15px;
+	}
+
+	.images1{
+	postion: relative;
+	left:20px;
+	right:10px;
+	top: 20px;
+	width: 150px;
+	height:50px;
+	background: white;
+	}
 </style>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -144,7 +165,9 @@
 								<div class="yui-u">
 
 									<div class="job">
-										<h2>Zuri Team/HNGI8/ I4G </h2><img src="{% static 'images/zuri.jpeg' %}"><br>
+										<h2>Zuri Team/HNGI8/ I4G </h2><a href="https://zuri.team/" target="_blank"><img class="images" src="{% static 'images/zuritraining.png' %}"></a>
+										<a href="https://hng.tech/" target="_blank"><img class="images" src="{% static 'images/hng.png' %}"></a>
+										<a href="https://ingressive.org/" target="_blank"><img class="images1" src="{% static 'images/i4g.png' %}"></a><br>
 										<h3>Trainee/Intern	</h3>
 										<h4>April 2021 - Date</h4>
 										<p>Backend Developer (Python, Django)</p>
